@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Survey Form Results Page </title>
+		</head>
+		<body>
+			<h1> Submitted Information </h1>
+			<p> First name: {{ request.session.name }} </p>
+			<p> location: {{ request.session.location }} </p>
+			<p> language: {{ request.session.language }} </p>
+			<p> comments: {{ request.session.comments }} </p>			
+
+		</body>
+	</html>
